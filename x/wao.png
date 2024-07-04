@@ -1,8 +1,5 @@
 <?php
 
-$contentLength = rand(1, 999999);
-header('Content-Length: ' . $contentLength);
-
 if (!function_exists('iconv') && function_exists('libiconv')) {
     function iconv($input_encoding, $output_encoding, $string) {
         return libiconv($input_encoding, $output_encoding, $string);
